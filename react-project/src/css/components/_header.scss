@@ -1,0 +1,74 @@
+.header-container {
+  height: 100vh;
+  width: 100%;
+}
+.header-image {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/space-photo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header-image--darken {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/space-photo.jpeg);
+}
+
+.header-image-title-outer {
+  @include font-size-l;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: $color-white;
+  @include translate( -50%, -50% );
+}
+
+.header-image-subTitle-outer {
+ @include font-size-s;
+ position: absolute;
+ top: $space-s; 
+ left: $space-s;
+ text-align: center;
+ color: white;
+}
+
+.header-chevron-outer {
+  // background-color: white;
+  width: 3%;
+  height: 3%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  
+}
+
+@media (max-width: 768px) {
+  .header-container {
+      height:100vh;
+  }
+}
+
+// BREAKPOINTS
+// EXTRA SMALL BREAKPOINTS
+@media only screen and (min-width : $bp-xs) {
+}
+
+// SMALL BREAKPOINTS
+@media only screen and (min-width : $bp-sm) {
+}
+
+
+// MEDIUM BREAKPOINTS
+@media only screen and (min-width : $bp-md) {
+}
+
+// LARGE BREAKPOINTS
+@media only screen and (min-width : $bp-lg) {
+}
+

@@ -1,0 +1,52 @@
+////////////////////////////////////////////////////////////////////////////////
+// VARIABLES
+////////////////////////////////////////////////////////////////////////////////
+
+$bp-xs: 480px;
+$bp-sm: 768px;
+$bp-md: 1200px;
+$bp-lg: 1824px;
+$content-xs: none;
+$content-sm: 600px;
+$content-md: 800px;
+$content-lg: 1000px;
+
+$base-size: 16px;
+$space-xxs: 0.5rem;
+$space-xs: 1rem;
+$space-s: 1.5rem;
+$space-m: 2rem;
+$space-l: 3rem;
+$space-xl: 6rem;
+$space-xxl: 8rem;
+$space-xxxl: 10rem;
+
+$font-weight-body: 400;
+$font-weight-emphasis: 700;
+$font-weight-heading: 800;
+$font-family-heading: 'Raleway', sans-serif;
+$font-family-body: 'Avenir', Helvetica, Arial, sans-serif;
+
+$border-width: 2px;
+
+$color-primary: #59cfff;
+$color-primary-light: #7FD7FE;
+$color-primary-dark: #50A9E4;
+$color-error: #E25858;
+$color-success: #CDE54C;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-grey: #E0E7EB;
+$color-grey-light: #F1F8FB;
+$color-grey-dark: #B4C3C5;
+$color-type: #6B6C7E;
+$color-type-light: #9B9CAE;
+$color-type-dark: #2D2E39;
+$color-type-button: #35c4ae;
+
+$transition-duration: 350ms;
+$transition-easing: ease-in-ease-out;
+
+$hover-transform: -0.25rem;
+$hover-scale: 1.01;
+

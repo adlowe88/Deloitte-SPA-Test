@@ -1,0 +1,180 @@
+.searchBar-container {
+  background-color: $color-grey;
+  height: $space-xl;
+  padding-bottom: $space-s;
+  margin: 3rem 3rem 0 3rem;
+  border-bottom: $border-width solid $color-grey-dark;
+}
+
+.searchBar-form {
+  width: 100%;
+  padding-left: 5rem;
+}
+
+.searchBar-form-keyWord-input-container {
+  display: inline-block;
+  padding: $space-s $space-s 0 $space-m;
+}
+
+.searchBar-input-keyWord-inner {
+  padding-left: $space-xxs;
+  width: 15rem;
+  height: 2rem;
+  margin-top: $space-xxs;
+}
+
+.searchBar-form-launchpad-input-container {
+  display: inline-block;
+  padding-left: $space-m;
+}
+
+.searchBar-input-launchPad-inner {
+  width: 15rem;
+  height: 2rem;
+  margin-top: $space-xxs;
+  padding-left: $space-xxs;
+}
+
+.searchBar-form-minYear-input-container {
+  display: inline-block;
+  padding-left: $space-m;
+}
+
+.searchBar-input-minYear-inner {
+  width: 15rem;
+  height: 2rem;
+  padding-left: $space-xxs;
+  margin-top: $space-xxs;
+}
+
+.searchBar-form-maxYear-input-container {
+  display: inline-block;
+  padding-left: $space-m;
+  padding-right: $space-m;
+}
+
+.searchBar-input-maxYear-inner {
+  width: 15rem;
+  height: 2rem;
+  padding-left: $space-xxs;
+  margin-top: $space-xxs;
+}
+
+.searchBar-input-keyword-outer {
+  height: $space-m;
+  width: 20%;
+}
+
+.searchBar-form-input-div {
+  text-align: left;
+}
+
+.searchBar-form-submit-container {
+  display: inline-block;
+  width: 8%;
+}
+
+.searchBar-form-submit-button {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 17px;
+  font-weight: 500;
+  color: $color-white;
+  background-color: $color-type-button;
+  border-radius: 0.3rem;
+} 
+
+// BREAKPOINTS
+// EXTRA SMALL BREAKPOINTS
+@media only screen and (min-width : $bp-xs) {
+}
+
+// SMALL BREAKPOINTS
+
+// MEDIUM BREAKPOINTS
+@media only screen and (min-width : $bp-md) {
+}
+
+// LARGE BREAKPOINTS
+@media only screen and (min-width : $bp-lg) {
+}
+
+@media only screen and (max-width : 1500px) {
+  .searchBar-form-keyWord-input-container {
+    display: inline;
+    padding: 1.5rem 0 0 2rem;
+  }
+  
+  .searchBar-input-keyWord-inner {
+    width: 18%;
+    text-align: center;
+  }
+
+  .searchBar-form-launchpad-input-container {
+    display: inline;
+    padding: 0;
+  }
+
+  .searchBar-input-launchPad-inner {
+    width: 18%;
+  }
+
+  .searchBar-form-maxYear-input-container {
+    display: inline;
+    padding: 0;
+  }
+
+  .searchBar-input-maxYear-inner {
+    width: 18%;
+  }
+
+  .searchBar-form-minYear-input-container {
+    display: inline;
+    padding: 0;
+  }
+
+  .searchBar-input-minYear-inner {
+    width: 18%;
+  }
+
+  .searchBar-form-submit-container {
+    display: inline;
+    padding-top: $space-xs;
+  }
+
+  .searchBar-form-submit-button {
+    display: block;
+    width: 18%;
+    margin-left: 41%;
+    margin-top: 2%;
+  }
+
+  .searchBar-form {
+    padding-left: 0;
+  }
+  
+  .searchBar-container {
+    height: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width : $bp-sm) {
+  .searchBar-input-keyWord-inner {
+    width: 88%;
+  }
+
+  .searchBar-input-launchPad-inner {
+    width: 88%;
+  }
+
+  .searchBar-input-maxYear-inner {
+    width: 88%;
+  }
+
+  .searchBar-input-minYear-inner {
+    width: 88%;
+  }
+}
+
+

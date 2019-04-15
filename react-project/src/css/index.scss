@@ -1,0 +1,31 @@
+@import '/reset';
+@import '/vars';
+@import '/mixins';
+@import '/helpers';
+@import '/base';
+@import 'components/header';
+@import 'components/searchBar';
+@import 'components/missionCard';
+@import 'components/cardList';
+
+body {
+  margin: 0;
+  padding: 0; 
+  background-color: $color-grey-light;
+  font-family: $font-family-body;
+  overflow-x: hidden;
+}
+
+.app-card-container {
+  height: auto;
+  margin: 0 3rem 0 3rem;
+  background-color: $color-white;
+}
+
+.app-body-container {
+  background-color: white;
+  margin: $space-m $space-l;
+  height: 90vh;
+  padding-bottom: $space-s;
+}
+

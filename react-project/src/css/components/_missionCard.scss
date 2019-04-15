@@ -1,0 +1,173 @@
+.missionCard-container-outer {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.missionCard-container-inner {
+  padding-top: 4rem;
+}
+
+.missionCard-image-container {
+  float: left;
+  width: 150px;
+  height: 150px;
+  padding: $space-m $space-xl;
+  position: relative;
+  bottom: $space-l;
+}
+
+.missionCard-image {
+  padding-bottom: $space-xs;
+  width:  100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.missionCard-info-container {
+  position: relative;
+  text-align: left;
+  padding: $space-s;
+}
+
+.missionCard-info-heading {
+  display: inline-block;
+}
+
+.missionCard-info-heading-failed-container {
+  display: inline-block;
+}
+
+.missionCard-info-launch-date {
+  display: inline-block;
+  padding-top: $space-xxs;
+  padding-bottom: $space-m;
+}
+
+.missionCard-info-launch-date-span {
+  display: inline;
+  word-wrap: break-word;
+}
+
+.missionCard-info-heading-failed {
+  display: inline-block;
+  color: red;
+}
+
+.missionCard-info-heading-failed-span {
+  display: inline;
+}
+
+.missionCard-flightNumber-container {
+  float: right;
+  position: relative;
+  bottom: 8.125rem;
+  right: 2.5rem;
+  width: auto;
+}
+
+.missionCard-buttons-container p {
+  display: inline-block;
+}
+
+.missionCard-buttons-span {
+  display: inline;
+}
+
+.missionCard-flightNumber {  
+  font-family: $font-family-body;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: normal;
+  margin-left: $space-m;
+  padding-top: $space-xxs;
+  padding-bottom: $space-xs;
+}
+
+.missionCard-flightNumber-p {
+  @include font-size-s;
+  font-family: $font-family-body;
+}
+
+.missionCard-flightNumber-span {
+  display: inline;
+}
+
+.missionCard-hr {
+  width: 94%;
+  position: relative;
+  left: 2.8rem;
+  clear: both;
+}
+
+// BREAKPOINTS
+// EXTRA SMALL BREAKPOINTS
+@media only screen and (max-width : 600px) {
+  .missionCard-flightNumber-container {
+    display: none;
+  }
+}
+
+// SMALL BREAKPOINTS
+@media only screen and (max-width : $bp-sm) {
+  .missionCard-flightNumber-span{
+    display: block;
+  }
+  .missionCard-flightNumber {
+    margin: 0;
+  }
+
+  .missionCard-hr {
+    width: 90%;
+  }
+  
+  .missionCard-buttons-span {
+    display: block;
+  }
+}
+
+
+// MEDIUM BREAKPOINTS
+@media only screen and (max-width : $bp-md) {
+  .missionCard-image-container {
+    display: none;
+  }
+
+  .missionCard-hr {
+    margin-left: -1rem;
+  }
+  
+  .missionCard-info-container {
+    padding-left: 5rem;
+  }
+}
+
+// LARGE BREAKPOINTS
+@media only screen and (max-width : 1500px) {
+  .missionCard-info-launch-date-span {
+    display: block;
+    padding-top: $space-xs;
+  }
+
+  .missionCard-flightNumber-container {
+    bottom: 11rem;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .missionCard-hr {
+    width: 70%;
+  }
+
+  .missionCard-info-container {
+    padding-left: 2rem;
+  }
+
+  .missionCard-info-heading-failed-span {
+    display: block;
+  }
+}

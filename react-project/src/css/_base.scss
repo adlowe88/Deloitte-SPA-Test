@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////////////////////////////
+// BASE
+////////////////////////////////////////////////////////////////////////////////
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:800|Work+Sans:400,700');
+
+html, body {
+	font-size: $base-size;
+	font-family: 'Work Sans', sans-serif;
+	line-height: 1.25rem;
+	color: $color-type-dark;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[v-cloak] { display: none; }
